@@ -6,10 +6,10 @@ public static void main(String [] args){
   int b=sc.nextInt();
   int c=sc.nextInt();
   if(a>b && a>c && b>c){
-  System.out.println("Your sum is" +(a+b));
+  System.out.println("Your sum is" +(a+c));
   }
   if(a<b && a<c && b<c){
-  System.out.println("Your sum is "+ (b+c));
+  System.out.println("Your sum is "+ (a+c));
   }
 }
 }
